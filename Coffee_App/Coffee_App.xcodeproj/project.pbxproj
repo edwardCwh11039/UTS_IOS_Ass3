@@ -56,10 +56,12 @@
 		BE2A5ED02824B8250083A151 /* Coffee_App */ = {
 			isa = PBXGroup;
 			children = (
+				BE6D112E282CB47D00BF8C17 /* Utils */,
+				BE6D112D282CB47700BF8C17 /* View */,
+				BE6D112C282CB47300BF8C17 /* Model */,
 				BE6D112B282CB1F100BF8C17 /* Controller */,
 				BE2A5ED12824B8250083A151 /* AppDelegate.swift */,
 				BE2A5ED32824B8250083A151 /* SceneDelegate.swift */,
-				BE2A5ED52824B8250083A151 /* ViewController.swift */,
 				BE2A5ED72824B8250083A151 /* Main.storyboard */,
 				BE2A5EDA2824B8250083A151 /* Assets.xcassets */,
 				BE2A5EDC2824B8250083A151 /* LaunchScreen.storyboard */,
@@ -71,8 +73,30 @@
 		BE6D112B282CB1F100BF8C17 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BE2A5ED52824B8250083A151 /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE6D112C282CB47300BF8C17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE6D112D282CB47700BF8C17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE6D112E282CB47D00BF8C17 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
