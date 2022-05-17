@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052394562831EE0C006CEB2E /* MenuPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052394552831EE0C006CEB2E /* MenuPopViewController.swift */; };
 		94441932047FC074D07D42E2 /* Pods_Coffee_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0430DB24D5046D4E2F5431F9 /* Pods_Coffee_App.framework */; };
+		B2BDD48D28316178009D95A7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BDD48C28316178009D95A7 /* MapViewController.swift */; };
+		B2BDD48F283165AE009D95A7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BDD48E283165AE009D95A7 /* MenuTableViewCell.swift */; };
+		B2F2B6C228314B75007B211E /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2B6C128314B75007B211E /* CoffeeModel.swift */; };
+		B2F2B6E8283154B5007B211E /* Coffee_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2F2B6E6283154B5007B211E /* Coffee_App.xcdatamodeld */; };
+		B2F2B6EA28315618007B211E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2B6E928315618007B211E /* MenuViewController.swift */; };
+		B2F2B6EC28315656007B211E /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2B6EB28315656007B211E /* FinishViewController.swift */; };
+		B2F2B6EE2831568F007B211E /* ControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2B6ED2831568F007B211E /* ControllerFactory.swift */; };
+		B2F2B6F028315A45007B211E /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2B6EF28315A45007B211E /* CoreDataHelper.swift */; };
+		B2F2B6F228315CAD007B211E /* CoreDataHelper+MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2B6F128315CAD007B211E /* CoreDataHelper+MockData.swift */; };
 		BE2A5ED22824B8250083A151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A5ED12824B8250083A151 /* AppDelegate.swift */; };
 		BE2A5ED42824B8250083A151 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A5ED32824B8250083A151 /* SceneDelegate.swift */; };
 		BE2A5ED62824B8250083A151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A5ED52824B8250083A151 /* ViewController.swift */; };
@@ -18,7 +28,17 @@
 
 /* Begin PBXFileReference section */
 		0430DB24D5046D4E2F5431F9 /* Pods_Coffee_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		052394552831EE0C006CEB2E /* MenuPopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPopViewController.swift; sourceTree = "<group>"; };
 		5C4ED439AF445A534C33F867 /* Pods-Coffee_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee_App.release.xcconfig"; path = "Target Support Files/Pods-Coffee_App/Pods-Coffee_App.release.xcconfig"; sourceTree = "<group>"; };
+		B2BDD48C28316178009D95A7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B2BDD48E283165AE009D95A7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		B2F2B6C128314B75007B211E /* CoffeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeModel.swift; sourceTree = "<group>"; };
+		B2F2B6E7283154B5007B211E /* Coffee_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coffee_App.xcdatamodel; sourceTree = "<group>"; };
+		B2F2B6E928315618007B211E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B2F2B6EB28315656007B211E /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		B2F2B6ED2831568F007B211E /* ControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerFactory.swift; sourceTree = "<group>"; };
+		B2F2B6EF28315A45007B211E /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		B2F2B6F128315CAD007B211E /* CoreDataHelper+MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataHelper+MockData.swift"; sourceTree = "<group>"; };
 		BE2A5ECE2824B8250083A151 /* Coffee_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2A5ED12824B8250083A151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE2A5ED32824B8250083A151 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +68,6 @@
 				E54FF3D6C9C55F077C600B0A /* Pods-Coffee_App.debug.xcconfig */,
 				5C4ED439AF445A534C33F867 /* Pods-Coffee_App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +99,7 @@
 				BE2A5ED12824B8250083A151 /* AppDelegate.swift */,
 				BE2A5ED32824B8250083A151 /* SceneDelegate.swift */,
 				BE2A5ED72824B8250083A151 /* Main.storyboard */,
+				B2F2B6E6283154B5007B211E /* Coffee_App.xcdatamodeld */,
 				BE2A5EDA2824B8250083A151 /* Assets.xcassets */,
 				BE2A5EDC2824B8250083A151 /* LaunchScreen.storyboard */,
 				BE2A5EDF2824B8250083A151 /* Info.plist */,
@@ -91,6 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				BE2A5ED52824B8250083A151 /* ViewController.swift */,
+				B2F2B6E928315618007B211E /* MenuViewController.swift */,
+				B2F2B6EB28315656007B211E /* FinishViewController.swift */,
+				B2BDD48C28316178009D95A7 /* MapViewController.swift */,
+				052394552831EE0C006CEB2E /* MenuPopViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -98,6 +122,7 @@
 		BE6D112C282CB47300BF8C17 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B2F2B6C128314B75007B211E /* CoffeeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,6 +130,7 @@
 		BE6D112D282CB47700BF8C17 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B2BDD48E283165AE009D95A7 /* MenuTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,6 +138,9 @@
 		BE6D112E282CB47D00BF8C17 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B2F2B6ED2831568F007B211E /* ControllerFactory.swift */,
+				B2F2B6EF28315A45007B211E /* CoreDataHelper.swift */,
+				B2F2B6F128315CAD007B211E /* CoreDataHelper+MockData.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -239,8 +268,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2BDD48D28316178009D95A7 /* MapViewController.swift in Sources */,
 				BE2A5ED62824B8250083A151 /* ViewController.swift in Sources */,
+				B2BDD48F283165AE009D95A7 /* MenuTableViewCell.swift in Sources */,
+				B2F2B6EA28315618007B211E /* MenuViewController.swift in Sources */,
+				B2F2B6C228314B75007B211E /* CoffeeModel.swift in Sources */,
+				B2F2B6EC28315656007B211E /* FinishViewController.swift in Sources */,
+				B2F2B6F228315CAD007B211E /* CoreDataHelper+MockData.swift in Sources */,
 				BE2A5ED22824B8250083A151 /* AppDelegate.swift in Sources */,
+				B2F2B6E8283154B5007B211E /* Coffee_App.xcdatamodeld in Sources */,
+				B2F2B6F028315A45007B211E /* CoreDataHelper.swift in Sources */,
+				052394562831EE0C006CEB2E /* MenuPopViewController.swift in Sources */,
+				B2F2B6EE2831568F007B211E /* ControllerFactory.swift in Sources */,
 				BE2A5ED42824B8250083A151 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +435,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,6 +464,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +500,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2F2B6E6283154B5007B211E /* Coffee_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2F2B6E7283154B5007B211E /* Coffee_App.xcdatamodel */,
+			);
+			currentVersion = B2F2B6E7283154B5007B211E /* Coffee_App.xcdatamodel */;
+			path = Coffee_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BE2A5EC62824B8250083A151 /* Project object */;
 }
