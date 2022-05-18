@@ -1,6 +1,6 @@
 target 'Coffee_App' do
   use_frameworks!
 
-pod 'Stripe'
+pod 'Braintree'
 
 end

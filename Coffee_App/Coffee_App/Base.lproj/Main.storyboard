@@ -92,7 +92,7 @@
         <!--Payment-->
         <scene sceneID="XAF-Tb-EcL">
             <objects>
-                <viewController title="Payment" id="7PS-7u-tPV" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CheckoutController" title="Payment" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7PS-7u-tPV" customClass="CheckoutController" customModule="Coffee_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="da1-3F-Hws">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

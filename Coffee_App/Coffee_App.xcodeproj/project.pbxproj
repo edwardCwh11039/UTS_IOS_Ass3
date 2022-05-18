@@ -24,6 +24,8 @@
 		BE2A5ED92824B8250083A151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5ED72824B8250083A151 /* Main.storyboard */; };
 		BE2A5EDB2824B8250083A151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5EDA2824B8250083A151 /* Assets.xcassets */; };
 		BE2A5EDE2824B8250083A151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5EDC2824B8250083A151 /* LaunchScreen.storyboard */; };
+		BE87885728348B0400E2D1A6 /* CheckoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87885628348B0400E2D1A6 /* CheckoutController.swift */; };
+		BE87885A28348B9900E2D1A6 /* CheckoutTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87885928348B9900E2D1A6 /* CheckoutTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		BE2A5EDA2824B8250083A151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2A5EDD2824B8250083A151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE2A5EDF2824B8250083A151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE87885628348B0400E2D1A6 /* CheckoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutController.swift; sourceTree = "<group>"; };
+		BE87885928348B9900E2D1A6 /* CheckoutTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutTableCell.swift; sourceTree = "<group>"; };
 		E54FF3D6C9C55F077C600B0A /* Pods-Coffee_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee_App.debug.xcconfig"; path = "Target Support Files/Pods-Coffee_App/Pods-Coffee_App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +119,7 @@
 				B2F2B6EB28315656007B211E /* FinishViewController.swift */,
 				B2BDD48C28316178009D95A7 /* MapViewController.swift */,
 				052394552831EE0C006CEB2E /* MenuPopViewController.swift */,
+				BE87885628348B0400E2D1A6 /* CheckoutController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -138,11 +143,20 @@
 		BE6D112E282CB47D00BF8C17 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BE87885828348B8400E2D1A6 /* components */,
 				B2F2B6ED2831568F007B211E /* ControllerFactory.swift */,
 				B2F2B6EF28315A45007B211E /* CoreDataHelper.swift */,
 				B2F2B6F128315CAD007B211E /* CoreDataHelper+MockData.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		BE87885828348B8400E2D1A6 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BE87885928348B9900E2D1A6 /* CheckoutTableCell.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 		CF76B33C8E0BE5C2301759EB /* Frameworks */ = {
@@ -273,7 +287,9 @@
 				B2BDD48F283165AE009D95A7 /* MenuTableViewCell.swift in Sources */,
 				B2F2B6EA28315618007B211E /* MenuViewController.swift in Sources */,
 				B2F2B6C228314B75007B211E /* CoffeeModel.swift in Sources */,
+				BE87885728348B0400E2D1A6 /* CheckoutController.swift in Sources */,
 				B2F2B6EC28315656007B211E /* FinishViewController.swift in Sources */,
+				BE87885A28348B9900E2D1A6 /* CheckoutTableCell.swift in Sources */,
 				B2F2B6F228315CAD007B211E /* CoreDataHelper+MockData.swift in Sources */,
 				BE2A5ED22824B8250083A151 /* AppDelegate.swift in Sources */,
 				B2F2B6E8283154B5007B211E /* Coffee_App.xcdatamodeld in Sources */,

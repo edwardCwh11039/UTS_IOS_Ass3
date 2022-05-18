@@ -58,6 +58,12 @@ class MenuViewController: UIViewController {
     
     fileprivate func showPaymentPage(coffee: CoffeeModel) {
         // TODO: payment page
+        if let checkoutVC = ControllerFactory.createCheckoutViewController() {
+            checkoutVC.coffee = coffee
+            checkoutVC.modalPresentationStyle = .fullScreen
+            checkoutVC.modalTransitionStyle = .crossDissolve
+            self.present(checkoutVC, animated: true)
+        }
         self.showFinishPage(coffee: coffee)
     }
 }

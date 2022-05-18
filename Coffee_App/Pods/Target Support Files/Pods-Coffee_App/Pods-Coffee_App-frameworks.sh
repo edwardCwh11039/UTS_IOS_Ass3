@@ -176,16 +176,10 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StripeApplePay/StripeApplePay.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StripeCore/StripeCore.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StripeUICore/StripeUICore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StripeApplePay/StripeApplePay.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StripeCore/StripeCore.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StripeUICore/StripeUICore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
