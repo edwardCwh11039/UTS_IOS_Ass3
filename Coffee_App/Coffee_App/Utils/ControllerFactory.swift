@@ -23,4 +23,8 @@ class ControllerFactory {
     static func createFinishViewController() -> FinishViewController? {
         return storyboard.instantiateViewController(withIdentifier: "FinishViewController") as? FinishViewController
     }
+    
+    static func createCheckoutViewController() -> CheckoutController? {
+        return storyboard.instantiateViewController(withIdentifier: "CheckoutController") as? CheckoutController
+    }
 }

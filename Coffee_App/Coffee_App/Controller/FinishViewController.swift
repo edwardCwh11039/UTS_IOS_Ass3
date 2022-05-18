@@ -23,7 +23,7 @@ class FinishViewController: UIViewController {
         self.coffeeImage.clipsToBounds = true
         self.nameLabel.text = nil
         self.descLabel.text = nil
-        
+
         self.updateModel()
     }
     
