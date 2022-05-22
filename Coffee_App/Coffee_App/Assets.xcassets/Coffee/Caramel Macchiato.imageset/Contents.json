@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Caramel Macchiato.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Caramel Macchiato.jpg",
+      "filename" : "Caramel Macchiato@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Caramel Macchiato@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

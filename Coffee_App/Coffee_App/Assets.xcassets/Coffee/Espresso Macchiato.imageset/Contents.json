@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Espresso Macchiato.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Espresso Macchiato.jpg",
+      "filename" : "Espresso Macchiato@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Espresso Macchiato@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

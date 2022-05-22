@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Dark Chocolate Mocha.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Dark Chocolate Mocha.jpg",
+      "filename" : "Dark Chocolate Mocha@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Dark Chocolate Mocha@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
