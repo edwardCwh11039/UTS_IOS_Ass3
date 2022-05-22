@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		052394562831EE0C006CEB2E /* MenuPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052394552831EE0C006CEB2E /* MenuPopViewController.swift */; };
+		25614257283A2E1B00646ED5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25614256283A2E1B00646ED5 /* MainVC.swift */; };
+		25614259283A2E2C00646ED5 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25614258283A2E2C00646ED5 /* LocationSearchTable.swift */; };
+		2561425B283A2E4000646ED5 /* DetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2561425A283A2E4000646ED5 /* DetailedVC.swift */; };
+		2561425D283A2E5000646ED5 /* NearbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2561425C283A2E5000646ED5 /* NearbyCell.swift */; };
 		94441932047FC074D07D42E2 /* Pods_Coffee_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0430DB24D5046D4E2F5431F9 /* Pods_Coffee_App.framework */; };
 		B2BDD48D28316178009D95A7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BDD48C28316178009D95A7 /* MapViewController.swift */; };
 		B2BDD48F283165AE009D95A7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BDD48E283165AE009D95A7 /* MenuTableViewCell.swift */; };
@@ -31,6 +35,10 @@
 /* Begin PBXFileReference section */
 		0430DB24D5046D4E2F5431F9 /* Pods_Coffee_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		052394552831EE0C006CEB2E /* MenuPopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPopViewController.swift; sourceTree = "<group>"; };
+		25614256283A2E1B00646ED5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		25614258283A2E2C00646ED5 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		2561425A283A2E4000646ED5 /* DetailedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedVC.swift; sourceTree = "<group>"; };
+		2561425C283A2E5000646ED5 /* NearbyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCell.swift; sourceTree = "<group>"; };
 		5C4ED439AF445A534C33F867 /* Pods-Coffee_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee_App.release.xcconfig"; path = "Target Support Files/Pods-Coffee_App/Pods-Coffee_App.release.xcconfig"; sourceTree = "<group>"; };
 		B2BDD48C28316178009D95A7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		B2BDD48E283165AE009D95A7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
@@ -120,6 +128,10 @@
 				B2BDD48C28316178009D95A7 /* MapViewController.swift */,
 				052394552831EE0C006CEB2E /* MenuPopViewController.swift */,
 				BE87885628348B0400E2D1A6 /* CheckoutController.swift */,
+				25614256283A2E1B00646ED5 /* MainVC.swift */,
+				25614258283A2E2C00646ED5 /* LocationSearchTable.swift */,
+				2561425A283A2E4000646ED5 /* DetailedVC.swift */,
+				2561425C283A2E5000646ED5 /* NearbyCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -287,14 +299,18 @@
 				B2BDD48F283165AE009D95A7 /* MenuTableViewCell.swift in Sources */,
 				B2F2B6EA28315618007B211E /* MenuViewController.swift in Sources */,
 				B2F2B6C228314B75007B211E /* CoffeeModel.swift in Sources */,
+				25614257283A2E1B00646ED5 /* MainVC.swift in Sources */,
 				BE87885728348B0400E2D1A6 /* CheckoutController.swift in Sources */,
 				B2F2B6EC28315656007B211E /* FinishViewController.swift in Sources */,
 				BE87885A28348B9900E2D1A6 /* CheckoutTableCell.swift in Sources */,
+				2561425D283A2E5000646ED5 /* NearbyCell.swift in Sources */,
 				B2F2B6F228315CAD007B211E /* CoreDataHelper+MockData.swift in Sources */,
 				BE2A5ED22824B8250083A151 /* AppDelegate.swift in Sources */,
 				B2F2B6E8283154B5007B211E /* Coffee_App.xcdatamodeld in Sources */,
 				B2F2B6F028315A45007B211E /* CoreDataHelper.swift in Sources */,
 				052394562831EE0C006CEB2E /* MenuPopViewController.swift in Sources */,
+				2561425B283A2E4000646ED5 /* DetailedVC.swift in Sources */,
+				25614259283A2E2C00646ED5 /* LocationSearchTable.swift in Sources */,
 				B2F2B6EE2831568F007B211E /* ControllerFactory.swift in Sources */,
 				BE2A5ED42824B8250083A151 /* SceneDelegate.swift in Sources */,
 			);
